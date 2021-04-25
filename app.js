@@ -22,6 +22,9 @@ require('./config')(app);
 require('./config/passport.local')(app);
 require('./config/passport')(app);
 
+// custom handlebars functions
+require('./config/hbshelpers')(hbs);
+
 // default value for title local
 const projectName = 'rooms-app';
 const capitalized = (string) =>
