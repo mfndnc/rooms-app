@@ -1,0 +1,23 @@
+<h1>Edit a Room</h1>
+
+{{#if canEdit}}
+
+{{#with room}}
+<form method="POST">
+
+
+  <label for="name">Name: </label>
+  <input type="text" name="name" value="{{name}}">
+
+  <label for="description">Description: </label>
+  <input type="text" name="description" value="{{description}}">
+
+  <button type="submit">Add this room</button>
+
+</form>
+{{/with}}
+{{else}}
+<p>You dont have permission to edit this room</p>
+{{/if}}
+
+<p><a href="/rooms">All Rooms</a></p>

@@ -1,0 +1,7 @@
+<h1>Room Detail</h1>
+{{#with room}}
+<h3>Name: {{name}}</h3>
+<p>Description: {{description}}</p>
+<a href="/rooms/{{_id}}/edit">Edit this Room </a>
+<a href="/rooms/{{_id}}/delete">Delete this Room 🗑</a>
+{{/with}}
