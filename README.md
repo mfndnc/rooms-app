@@ -20,5 +20,6 @@ Exercise : [IronHack | LAB | IronRooms](https://github.com/ironhack-labs/lab-exp
 
 ### TODOS
 
-add image to rooms
-Iteration #3
+ add image to rooms
+ 
+ Iteration #3
