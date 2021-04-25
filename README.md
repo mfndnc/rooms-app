@@ -1,5 +1,7 @@
 # rooms-app
 
+Exercise : (https://github.com/ironhack-labs/lab-express-rooms-with-reviews "LAB | IronRooms")
+
 ### steps
 
      npx ironlauncher rooms-app
