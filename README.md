@@ -1,6 +1,6 @@
 # rooms-app
 
-Exercise : (https://github.com/ironhack-labs/lab-express-rooms-with-reviews "LAB | IronRooms")
+Exercise : [IronHack | LAB | IronRooms](https://github.com/ironhack-labs/lab-express-rooms-with-reviews "GitHub IronRooms")
 
 ### steps
 
