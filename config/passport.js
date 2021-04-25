@@ -44,6 +44,12 @@ module.exports = (app) => {
   app.use(passport.initialize());
   app.use(passport.session());
 
+  // Global properties in Express & Handlebars
+  app.use((req, res, next) => {
+    res.locals.userGlobal = req.user;
+    next();
+  });
+
   /*
    ******
    ******
