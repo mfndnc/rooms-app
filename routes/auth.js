@@ -23,7 +23,7 @@ router.get('/logout', (req, res, next) => {
 router.post(
   '/login',
   passport.authenticate('local', {
-    successRedirect: '/',
+    successRedirect: '/private',
     failureRedirect: '/login',
     passReqToCallback: true,
   })
@@ -78,7 +78,7 @@ router.post('/signup', (req, res, next) => {
           if (err) {
             next(err);
           } else {
-            res.redirect('/');
+            res.redirect('/private');
           }
         });
       });
